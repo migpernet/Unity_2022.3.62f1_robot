@@ -1,0 +1,21 @@
+Guia de simulação:
+
+1 - Lançar a simulação no unity: 
+Nome do projeto --> Unity_2022.3.62f1_robot
+
+Neste projeto existem dois senários, 1 para o manipulador UR5 + gripper robotiq 2F 85 e outro para o manipulador UR5 + gripper robotiq 2F 140. O primeiro já está pronto e funcionado, porém a garra no lado do unity não consegue movimentar.
+
+2 - Lançar o servidor via terminal
+roslaunch ros_tcp_endpoint endpoint.launch
+
+3 - Iniciar a simulação no unity apertando o "play"
+
+4 - Lançar o gazebo / RViz via terminal
+roslaunch ggcnn_pkg spawn_ur5_gripper_gazebo.launch
+
+5 - Lançar o nó no lado do ROS
+rosrun unity_ur5_control unity_joint_publisher.py
+
+6 - Verificar a criação dos tópicos e publicações com "rostopic"
+
+7 - Abrir o "rqt_graph" via terminal para visualizar os nós e tópicos publisher e subscriber.
