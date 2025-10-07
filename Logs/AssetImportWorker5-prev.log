@@ -1,0 +1,923 @@
+Unity Editor version:    2022.3.62f1 (4af31df58517)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #149~20.04.1-Ubuntu SMP Wed Apr 16 08:29:56 UTC 2025
+Kernel version:          5.15.0-139-generic
+Architecture:            x86_64
+Available memory:        15674 MB
+Using pre-set license
+Pro License: YES
+Desktop is 1920 x 2160 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+/home/miguel/miguel_ws/src/Unity_2022.3.62f1_robot_V1
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+40683
+Successfully changed project path to: /home/miguel/miguel_ws/src/Unity_2022.3.62f1_robot_V1
+/home/miguel/miguel_ws/src/Unity_2022.3.62f1_robot_V1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140138737546176]  Target information:
+
+Player connection [140138737546176]  * "[IP] 192.168.0.24 [Port] 0 [Flags] 2 [Guid] 2748200017 [EditorId] 2748200017 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.24) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140138737546176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140138737546176] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 7,73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 2022.3.62f1 (4af31df58517)
+[Subsystems] Discovering subsystems at path /home/miguel/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/miguel/miguel_ws/src/Unity_2022.3.62f1_robot_V1/Assets
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) Graphics (ADL GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 21.2.6
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
+t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture
+_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 298076688
+../src/intel/isl/isl.c:2105: FINISHME: ../src/intel/isl/isl.c:isl_surf_supports_ccs: CCS for 3D textures is disabled, but a workaround is available.
+Initialize mono
+Mono path[0] = '/home/miguel/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
+Mono path[1] = '/home/miguel/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/miguel/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/miguel/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/miguel/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,007333 seconds.
+- Loaded All Assemblies, in  0,614 seconds
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 318 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0,846 seconds
+Domain Reload Profiling: 1461ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (115ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (847ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (789ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (465ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1,651 seconds
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0,760 seconds
+Domain Reload Profiling: 2410ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (1414ms)
+		LoadAssemblies (956ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (531ms)
+			TypeCache.Refresh (400ms)
+				TypeCache.ScanAssembly (362ms)
+			ScanForSourceGeneratedMonoScriptInfo (98ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (761ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (578ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 14.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3941 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (46.1 KB). Loaded Objects now: 4409.
+Memory consumption went from 135.0 MB to 135.0 MB.
+Total: 10.513528 ms (FindLiveObjects: 1.097358 ms CreateObjectMapping: 0.380518 ms MarkObjects: 8.279250 ms  DeleteObjects: 0.752182 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/UR5_Solver.cs: 34329cd84a324518bcc645e21a7c73f1 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AxisAlignmentTester.cs: 34cb4f397b64122ab5fdaa134d8a5aac -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 200186.344943 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_inner_knuckle_link_9.asset
+  artifactKey: Guid(f52b82a6af17a3dfaa642ce582abec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_inner_knuckle_link_9.asset using Guid(f52b82a6af17a3dfaa642ce582abec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd80add177bf277172558938a1214343') in 0.216787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.274138 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_finger_link_9.asset
+  artifactKey: Guid(5a8e11c43be4116e69867b0713853ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_finger_link_9.asset using Guid(5a8e11c43be4116e69867b0713853ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd3d162cda98ed5c0e1cbdd884c691a7') in 0.018698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001776 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_finger_tip_link_1.asset
+  artifactKey: Guid(0e893b61a2ef9eefab00029bca478113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_finger_tip_link_1.asset using Guid(0e893b61a2ef9eefab00029bca478113) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13b7818b15f70f43021e83766d2ae40d') in 0.012740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.075189 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_188.asset
+  artifactKey: Guid(3a408ddf3ce23219baf8fbdc8f226026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_188.asset using Guid(3a408ddf3ce23219baf8fbdc8f226026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a57fbfab18e3980d53d27c0bbb726a2') in 0.009491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_finger_link_2.asset
+  artifactKey: Guid(891d160422559ac54b78ba7d0689073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_finger_link_2.asset using Guid(891d160422559ac54b78ba7d0689073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7d69d27745d2e8cee8149ddc455d277') in 0.007818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_193.asset
+  artifactKey: Guid(0e318547172733d00bfae245c0d15d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_193.asset using Guid(0e318547172733d00bfae245c0d15d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c211139c3641d0f697311bd2cbfef4ac') in 0.008774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_finger_link_5.asset
+  artifactKey: Guid(4cccafec70569e5119868a6f9ea1ca54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_finger_link_5.asset using Guid(4cccafec70569e5119868a6f9ea1ca54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b964badf43582a0528a50b55edf262f2') in 0.012949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_192.asset
+  artifactKey: Guid(998655d7ae7f1b74f897079d8dc788ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_192.asset using Guid(998655d7ae7f1b74f897079d8dc788ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd6652103334ce4ff3ff650800c00c91e') in 0.008576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.037544 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_172.asset
+  artifactKey: Guid(3f7d886352278bfd4a6b565e728dae01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_172.asset using Guid(3f7d886352278bfd4a6b565e728dae01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46f6b94e1ab2b45ba1b0f764322d8d0f') in 0.025882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001279 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_183.asset
+  artifactKey: Guid(4001d84be23b9c513b44f8e89ff5bc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_183.asset using Guid(4001d84be23b9c513b44f8e89ff5bc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4b0d75ad90c6259ca2a937e33d1758f') in 0.019622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_173.asset
+  artifactKey: Guid(91d9f69e388c32b4a96410b9c8cd76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_173.asset using Guid(91d9f69e388c32b4a96410b9c8cd76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ddc7b9a1333deacdfcc417a31ef522c1') in 0.020722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_180.asset
+  artifactKey: Guid(9c3a3ac280a64c6bfb23805539c873e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_180.asset using Guid(9c3a3ac280a64c6bfb23805539c873e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0b87edba4b9520e68f374d62617c6219') in 0.011733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000790 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_174.asset
+  artifactKey: Guid(52a2d41a01b4d0037a3f77b9a173e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_174.asset using Guid(52a2d41a01b4d0037a3f77b9a173e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5bd12afa1ba2d9edaf4599ad0c924313') in 0.015075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_176.asset
+  artifactKey: Guid(d1a83c487bf0a7a6e8748addc941311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_176.asset using Guid(d1a83c487bf0a7a6e8748addc941311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ddb0650e60ae573d4c7f86d2c064a7b') in 0.006617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.405638 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_164.asset
+  artifactKey: Guid(823f3e2e3b4191f60928db46afbfb9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_164.asset using Guid(823f3e2e3b4191f60928db46afbfb9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6902e0a962881c66c083c40bb655729e') in 0.029484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_168.asset
+  artifactKey: Guid(3544785a14356118b8f96bc81aad20c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_168.asset using Guid(3544785a14356118b8f96bc81aad20c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a4ffb0f600a7f9348a8813ac11ba3931') in 0.023147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_169.asset
+  artifactKey: Guid(44762bf905aaebbe29f7815c8c641b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_169.asset using Guid(44762bf905aaebbe29f7815c8c641b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee52a472d93d4476e5f9ddc560a8331a') in 0.020288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.055309 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_140.asset
+  artifactKey: Guid(bec8022d6ebd79223b23c39e7b199330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_140.asset using Guid(bec8022d6ebd79223b23c39e7b199330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03351dbccf08a26e48ee9463f45f677f') in 0.018395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_150.asset
+  artifactKey: Guid(34c18f88b9e951a10b3f02b26a03c38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_150.asset using Guid(34c18f88b9e951a10b3f02b26a03c38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c40eb2e93456897f63da2935bc69563a') in 0.015946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_154.asset
+  artifactKey: Guid(a2af1059320fad4e7ac5769133d0ad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_154.asset using Guid(a2af1059320fad4e7ac5769133d0ad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97d4f3166b909ccdd6005cd88b208dc4') in 0.016484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_157.asset
+  artifactKey: Guid(5395a221528f2d88cb24375a40d68040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_157.asset using Guid(5395a221528f2d88cb24375a40d68040) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '624c308ed4788383c5df21afa7b65dce') in 0.015342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_144.asset
+  artifactKey: Guid(189a1e5a00fd6ff89ab06095c993ceae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_144.asset using Guid(189a1e5a00fd6ff89ab06095c993ceae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '41360d667d22a029ba98c9ca48df39ab') in 0.016954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_156.asset
+  artifactKey: Guid(53ace4899213cacccadfda45a196e0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_156.asset using Guid(53ace4899213cacccadfda45a196e0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce967f8737fe54d43a69c0783568a8ef') in 0.014649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_153.asset
+  artifactKey: Guid(9d499665b1ebd8d208cffd761f14f51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_153.asset using Guid(9d499665b1ebd8d208cffd761f14f51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd85d4a8631ae2c2377f32a2091e4ad5a') in 0.010948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.131525 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_132.asset
+  artifactKey: Guid(0d28ca0af6ccab5e0981d80c747262fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_132.asset using Guid(0d28ca0af6ccab5e0981d80c747262fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b75a2538ba19d9170b85967740e9bb7f') in 0.026426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002050 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_137.asset
+  artifactKey: Guid(12cde591e5e1a3847b1b185940c09241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_137.asset using Guid(12cde591e5e1a3847b1b185940c09241) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '127c0512971ef5b914aee05ebcce47ea') in 0.020372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.036491 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_116.asset
+  artifactKey: Guid(dbdedb6483ab825399ff113bf63ff26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_116.asset using Guid(dbdedb6483ab825399ff113bf63ff26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79c4a8bb3918142b840562157709500c') in 0.015137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_122.asset
+  artifactKey: Guid(c58dac089d1ffdf5bbd7a9bc35e02235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_122.asset using Guid(c58dac089d1ffdf5bbd7a9bc35e02235) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '564b14f96f145ce3786af1c216235d3b') in 0.010228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_121.asset
+  artifactKey: Guid(161c2dc27644a2f58b294bd1523494b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_121.asset using Guid(161c2dc27644a2f58b294bd1523494b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '44a4a95550e706844c03038b9d41c4c8') in 0.010063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_129.asset
+  artifactKey: Guid(f4876ef4e55b6275e8a5a121c940ddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_129.asset using Guid(f4876ef4e55b6275e8a5a121c940ddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9fb88d363921481bd8624afb4d237bf') in 0.009966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_126.asset
+  artifactKey: Guid(8ef2ec89717667ddd89798a54f1087f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_126.asset using Guid(8ef2ec89717667ddd89798a54f1087f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '190170754dd34d200a6601618c6fa9e5') in 0.007732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_128.asset
+  artifactKey: Guid(535a7ac0bd7aadf19b14a9268c621e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_128.asset using Guid(535a7ac0bd7aadf19b14a9268c621e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '224d2dd7f332b2855608901544a2e474') in 0.016526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019509 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_100.asset
+  artifactKey: Guid(4bbf6ae73b5bb0b30b004288f30e774d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_100.asset using Guid(4bbf6ae73b5bb0b30b004288f30e774d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97fa7ddc148ad5fb41bd9cfc2a6ea2cb') in 0.008815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_104.asset
+  artifactKey: Guid(e16641f0f762bf12a960d6a50c0bfcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_104.asset using Guid(e16641f0f762bf12a960d6a50c0bfcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f4bb1a1b0f6104e165177f44d82d1e31') in 0.007015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_105.asset
+  artifactKey: Guid(81f029b44c61d2dce80e30f8e9939d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_105.asset using Guid(81f029b44c61d2dce80e30f8e9939d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4eb86d12a879b993751474e5e30374ff') in 0.009690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_108.asset
+  artifactKey: Guid(bb0f6fb1043061c2392c5083e7da123e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_108.asset using Guid(bb0f6fb1043061c2392c5083e7da123e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f86ac3c44d950d8a5e9dd452b33ed9ef') in 0.008631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_111.asset
+  artifactKey: Guid(91382087e2eb89af592256947cf4bd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_111.asset using Guid(91382087e2eb89af592256947cf4bd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1658acf4d1d5530b8fbb66b577027ca6') in 0.014927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.186999 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_76.asset
+  artifactKey: Guid(9881dcef3ec2786059ba8554785ce1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_76.asset using Guid(9881dcef3ec2786059ba8554785ce1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4afc3f663291097317b5f9594942ad82') in 0.014963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_84.asset
+  artifactKey: Guid(0623587d31eac21f7ae24ee20df97b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_84.asset using Guid(0623587d31eac21f7ae24ee20df97b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a47e6c8c720750a0c77093683035458') in 0.007979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_95.asset
+  artifactKey: Guid(ff54398dac2ec18338d22516fd7184eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_95.asset using Guid(ff54398dac2ec18338d22516fd7184eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8b4ebf1352330c31ddeb341ca4fad696') in 0.007880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_97.asset
+  artifactKey: Guid(ba247dec04a5a9881bcdf5c825e5e151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_97.asset using Guid(ba247dec04a5a9881bcdf5c825e5e151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b98511599cee0f10a9d95879fc3a172c') in 0.010833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_89.asset
+  artifactKey: Guid(b14328e502574b5429023519e4d2e0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_89.asset using Guid(b14328e502574b5429023519e4d2e0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '820d5f89a210d620748e791e88a3374e') in 0.009095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_83.asset
+  artifactKey: Guid(4c9db812edd9eaf369debc0db601db3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_83.asset using Guid(4c9db812edd9eaf369debc0db601db3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '350f9ada20d7c6e433cdb4a10389732e') in 0.009200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_93.asset
+  artifactKey: Guid(aed8e5d0d0f62e39c86182b1036f49ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_93.asset using Guid(aed8e5d0d0f62e39c86182b1036f49ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e29880f439ca6c2635327f83c90edb86') in 0.014182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_82.asset
+  artifactKey: Guid(a48af572254782096b2154a86aa272de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_82.asset using Guid(a48af572254782096b2154a86aa272de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6500d4e9122b8a9fca785fbc30c8dae5') in 0.011062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_90.asset
+  artifactKey: Guid(c62cba5e08b1191e4910eae58f9f87e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_90.asset using Guid(c62cba5e08b1191e4910eae58f9f87e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e2bf55ec544789e4422c7c11a67c777') in 0.011324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_71.asset
+  artifactKey: Guid(549bfd322b53f9d1c980ddec9be0e128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_71.asset using Guid(549bfd322b53f9d1c980ddec9be0e128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26f9468fafda3f42796a04fe6d692500') in 0.009358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_70.asset
+  artifactKey: Guid(c5d0717d71d41c1899231f90916d4212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_70.asset using Guid(c5d0717d71d41c1899231f90916d4212) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8cbf22769acd797d19c98a014ddd9109') in 0.008954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.175155 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_60.asset
+  artifactKey: Guid(4a3194dd4e27f1715b3a8921e8c3314d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_60.asset using Guid(4a3194dd4e27f1715b3a8921e8c3314d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e4aa0f6397c981b83b0ad34aba27ff95') in 0.035676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_61.asset
+  artifactKey: Guid(59caf65ee0b291a9dbfea015bcbc79c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_61.asset using Guid(59caf65ee0b291a9dbfea015bcbc79c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'efa0597b5d708dc2974bd79dec560709') in 0.021330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.070612 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_28.asset
+  artifactKey: Guid(1af29de406cf056048b94af2a7c29941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_28.asset using Guid(1af29de406cf056048b94af2a7c29941) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2a22ebcb93eb31dc9a94b4036a24165') in 0.025693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_33.asset
+  artifactKey: Guid(f3797b9c6f340c500b3f82382e2c796c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_33.asset using Guid(f3797b9c6f340c500b3f82382e2c796c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5ef10032cf82720b74cf9e1b295db7ce') in 0.019141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002395 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_45.asset
+  artifactKey: Guid(56e167691362b47a6b00ad0215c107c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_45.asset using Guid(56e167691362b47a6b00ad0215c107c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '75ca8d4fbe5b19362fd9705c1ef55843') in 0.015467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_57.asset
+  artifactKey: Guid(037056f02d7762c7eb4d8283158ac06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_57.asset using Guid(037056f02d7762c7eb4d8283158ac06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9bf8dd96790f7b67a12f87dd023e008d') in 0.017318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001051 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_44.asset
+  artifactKey: Guid(b29943d738281ab05be72b12220f9d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_44.asset using Guid(b29943d738281ab05be72b12220f9d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e39f3286f1c078c5f054ec9ccac44c2f') in 0.015957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003112 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_42.asset
+  artifactKey: Guid(ac4c984606c03534aa055f468a925fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_42.asset using Guid(ac4c984606c03534aa055f468a925fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15b79a3d302226cbf7972dc0a6678e8b') in 0.010116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002316 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_38.asset
+  artifactKey: Guid(724f260299b61e805a39470f319e0ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_38.asset using Guid(724f260299b61e805a39470f319e0ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '157501588b3daca8cb49fe212a93fada') in 0.010402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001120 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_39.asset
+  artifactKey: Guid(772a450464615a2e09733494e5917a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_39.asset using Guid(772a450464615a2e09733494e5917a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '466b5e62dd4d1b550a6443d0213fc32f') in 0.013895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_55.asset
+  artifactKey: Guid(89f9237e0a19a98f4a0fde177c142a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_55.asset using Guid(89f9237e0a19a98f4a0fde177c142a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f1e5ba6f281b329d21a50fe442dbbc2') in 0.006997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_29.asset
+  artifactKey: Guid(9adfe998e04139e8cbef96146eac685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_29.asset using Guid(9adfe998e04139e8cbef96146eac685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ac4d34928aa6eab1976d6095113a8fc') in 0.008593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.107254 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_12.asset
+  artifactKey: Guid(6f849e8d9d21ce15583f23c5e97a2bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_12.asset using Guid(6f849e8d9d21ce15583f23c5e97a2bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b1883b8e466a3ff434e9de330e82bb83') in 0.012175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_23.asset
+  artifactKey: Guid(9c07956d6954c647f8c972192943f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_23.asset using Guid(9c07956d6954c647f8c972192943f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ef29b592e3e6b89c025d685726e31415') in 0.019814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_15.asset
+  artifactKey: Guid(fb0c240c84487b455b122d42ade54bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_15.asset using Guid(fb0c240c84487b455b122d42ade54bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '21c4bc6bcac6675935515fe02c59f502') in 0.018333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_19.asset
+  artifactKey: Guid(69e1936091173ff31b0bb2f5e8443417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_19.asset using Guid(69e1936091173ff31b0bb2f5e8443417) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '506d454aeb37d107f9874d1bd9b17f1f') in 0.015182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_20.asset
+  artifactKey: Guid(895612701f4f6bff6a168f6b3778b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_20.asset using Guid(895612701f4f6bff6a168f6b3778b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e0934f08868fd3c981acc3746f425f0') in 0.019137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.052775 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_2.asset
+  artifactKey: Guid(69c1d666e3f547f6ebd3554e4d358c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_2.asset using Guid(69c1d666e3f547f6ebd3554e4d358c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c23ce15d8934c856897c55802127e7d5') in 0.016974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_8.asset
+  artifactKey: Guid(b4cb8da1eb6a12ef787fab437562310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_8.asset using Guid(b4cb8da1eb6a12ef787fab437562310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '47c79a6101746865e2c5916fbcc06eb3') in 0.015725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000948 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_9.asset
+  artifactKey: Guid(01af874f5f50f07ca9943c675b8f7734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_9.asset using Guid(01af874f5f50f07ca9943c675b8f7734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be48c706b764b67421d4db09402535e3') in 0.019175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_6.asset
+  artifactKey: Guid(99e849bbfbe1f53ceaa589410e24d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_6.asset using Guid(99e849bbfbe1f53ceaa589410e24d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68afcdbbd61a8f5cf329dd514093a2ef') in 0.018905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_4.asset
+  artifactKey: Guid(4ca2cbd168324e44bb7e1769d87b7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/robotiq_2f_85_gripper_description/meshes/collision/robotiq_85_base_link_4.asset using Guid(4ca2cbd168324e44bb7e1769d87b7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d9a863dc256dc5019671c49ac95d9be') in 0.012281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.058644 seconds.
+  path: Assets/UR5_Robotiq_85/ur5_description/meshes/collision/forearm_4.asset
+  artifactKey: Guid(7841f283338e89dc882523e717d4d1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UR5_Robotiq_85/ur5_description/meshes/collision/forearm_4.asset using Guid(7841f283338e89dc882523e717d4d1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c51a2362d40658e247553655120294bc') in 0.007495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 125, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
