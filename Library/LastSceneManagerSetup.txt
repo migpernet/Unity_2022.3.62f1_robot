@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SceneUR5Robotiq85.unity
+- path: Assets/UR5_Robotiq_85/robot_ur5_85.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

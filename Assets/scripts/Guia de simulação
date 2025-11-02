@@ -12,7 +12,7 @@ roslaunch ros_tcp_endpoint endpoint.launch
 roslaunch ggcnn_pkg spawn_ur5_gripper_gazebo.launch
 
 5 - Lançar o nó no lado do ROS
-rosrun seu_pacote kdl_teleop_solver.py
+rosrun unity_ur5_control kdl_teleop_solver.py
 
 6 - Verificar a criação dos tópicos e publicações com "rostopic"
 
